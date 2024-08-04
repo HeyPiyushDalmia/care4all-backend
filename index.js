@@ -12,7 +12,7 @@ const body=require("body-parser");
 const app = express();
 app.use(
   cors({
-    origin:"http://localhost:3000",
+    origin:"https://care4all.vercel.app",
     methods:["GET","POST","PUT","DELETE"],
   })
 );
