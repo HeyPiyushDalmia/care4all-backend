@@ -1,0 +1,14 @@
+###
+POST http://localhost:8000/api/Contact
+Content-Type: application/json
+
+{
+    "name" : "Piyush",
+    "email": "piyush5687@gmail.com",
+    "phone" : "9711778932",
+    "query" : "Testing"
+}
+
+###
+
+GET http://localhost:8000/api/Contact
